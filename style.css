@@ -3,3 +3,29 @@ body {
   height: 100%;
   margin: 0;
 }
+
+header {
+  text-align: center;
+} 
+
+header nav a {
+  padding: 5px;
+  background-color: lightgray;
+}
+
+#featured-property {
+  text-align: center;
+}
+
+#featured-property p {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+section#details {
+  background-color: red;
+  display: grid;
+  grid-template-columns: repeat(4,4fr);
+  padding: 20px 40px;
+  text-align: center;
+}
